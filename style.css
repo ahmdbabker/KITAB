@@ -1,0 +1,1172 @@
+*
+{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Readex Pro Regular', sans-serif;
+}
+
+.container
+{
+    padding: 0 4%;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    background-color:white ;
+    box-shadow: -1px 0px 9px 0px lightgray;
+    height: 70px;
+}
+
+.brand-title
+{
+    font-size: 45px;
+}
+
+.nav-links ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li ,a
+{
+    text-decoration: none;
+    color: black;
+    padding: 0 8px;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav-links ul li ,a:hover
+{
+    color: lightgray;
+}
+
+.toggle-btn
+{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 30px;
+    display: none;
+}
+
+.reciption
+{
+ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(1.jpg);
+ width: 100%;
+ height: 540px;
+ background-size: cover;
+ color: white;
+ position: relative;
+}
+
+.qote
+{
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.qote h1
+{
+    border: 5px solid white;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 50px;
+}
+
+.qote button
+{
+    padding: 7px;
+    font-size: 20px;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.qote button a
+{
+    color: white;
+}
+
+.qote button:hover{
+    background-color: rgb(35, 209, 200)
+}
+
+.deal
+{
+    margin: 40px auto;
+    box-shadow: 1px 1px 7px 0px lightgray;
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    border-bottom: 5px solid lightseagreen;
+    line-height: 35px;
+}
+
+.deeals button
+{
+    border:none;
+    padding: 10px;
+    width: 40%;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.deeals button a
+{
+    color: white;
+}
+.people-reading,.all-people
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 35px;
+    align-items: center;
+}
+
+.people-reading a
+{
+    color: teal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-inf
+{
+    width: 50%;
+    position: relative;
+    margin-bottom: 10px;
+    right: 20px;
+}
+
+.img-inf h1::before
+{
+    content: "";
+    position: absolute;
+    background-color: lightseagreen;
+    width: 6px;
+    height: 63px;
+    margin-right: -10px;
+}   
+
+.image
+{
+    width: 37%;
+}
+
+.image img
+{
+    width: 100%;
+    height: 450px;
+    box-shadow: 1px 1px 9px 5px  lightgray;
+}
+
+.img-inf p
+{
+    color: rgb(100, 99, 99);
+    margin-right: 0px;
+}
+
+.swiper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    height:350px;
+  }
+
+
+.titlle
+{
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+
+.titlle h1::before
+{
+    content: "";
+    position: absolute;
+    background-color: lightseagreen;
+    width: 7px;
+    height: 73px;
+    margin-right: -20px;
+}
+
+
+.swiper-button-next,.swiper-button-prev
+{
+    background-color: white;
+    padding: 30px;
+    color: black;
+    font-size: 15px;
+    border-radius: 7%;
+    margin-top: -20px;
+}
+
+.swiper-slide span
+{
+    color: rgb(121, 121, 121);
+    margin: 10px 10px;
+}
+
+.swiper-slide .imaggs
+{
+    width: 100%;
+    height: 65%;
+}
+
+.swiper-slide .imaggs img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.hero
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1
+{
+    font-size: 35px;
+    position: relative;
+}
+
+.hero h1::before
+{
+    content: "";
+    width: 5px;
+    height: 60px;
+    background-color: lightseagreen;
+    position: absolute;
+    margin-right: -20px;
+}
+
+.review-box
+{
+    width: 90%;
+    max-width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
+    position: relative;
+    top: 34px;
+    overflow:hidden;
+}
+
+.card
+{
+    height: 300px;
+    padding: 40px;
+    color: #fff;
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #777;
+    position: relative;
+}
+
+#slide
+{
+    width: 100%;
+    padding-right: 60px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile h3,p
+{
+    margin-right: 30px;
+}
+
+.profile span
+{
+    background-color:lightseagreen ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sidebar
+{
+    width: 60px;
+    height: 100%;
+    padding: 15px 0 ;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top ,lightseagreen , rgb(52, 240, 230) );
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar button
+{
+    width: 35px;
+    padding: 0;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    background: white;
+    color: black;
+    border:none;
+    font-size:19px;
+    font-weight: bold;
+}
+
+.footer
+{
+    background-color: rgb(228, 225, 225);
+    color: black;
+    height: 200px;
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+
+.footer .all-contennts
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.itms span
+{
+    color: rgb(68, 68, 68);
+}
+
+.under-links span
+{
+    padding: 20px;
+}
+
+.icns i 
+{
+    padding: 0 10px;
+    font-size: 25px;
+    color: rgb(59, 52, 52);
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.sale .container
+{
+    padding: 0;
+}
+.tow-sides
+{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.sale .side-toggle
+{
+    position: relative;
+    top: 10px;
+    right: 140px;
+    font-size: 27px;
+}
+
+.right-navs
+{
+    background-color: rgb(241, 241, 241);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.right-navs .search 
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.right-navs .search input
+{
+    border: 1px solid lightgray;
+    padding:10px;
+    text-align: center;
+    width: 100%;
+}
+
+.right-navs .search i
+{
+    color: rgb(119, 119, 119);
+    position: absolute;
+    left: 12px;
+    top: 15px;
+}
+
+.right-navs .navss ul li
+{
+    list-style: none;
+    line-height: 45px;
+    text-align: right;
+    color: rgb(167, 167, 167);
+}
+
+.books-show
+{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.books-show .tabs
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.books-show .tabs li
+{
+    padding:15px;
+    border-right:1px solid white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.books-show .tabs li.active,
+.tabs li:hover
+{
+    background-color: lightseagreen;
+    color: white;
+}
+
+
+.books-show .content .flee
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.books-show .content .flee .taking-single
+{
+    width: 42%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.books-show .flee .book-infor
+{
+    width: 50%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.books-show .flee .book-infor  span
+{
+    font-size: 20px;
+}
+
+.books-show .flee .book-infor .old
+{
+    text-decoration: line-through;
+    color: crimson;
+}
+
+.books-show .flee .book-infor button
+{
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 75%;
+    padding: 10px;
+}
+
+.books-show .flee .book-infor p
+{
+    margin: 0;
+    color: rgb(129, 129, 129);
+}
+.books-show .content .flee .bool-img 
+{
+    width: 50%;
+    height: 220px;
+}
+
+.books-show .content .flee .bool-img  img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.books-show .content > div
+{
+    padding: 20px;
+}
+
+.books-show .content > div:not(:first-child)
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queery */
+
+@media screen and (max-width:668px)
+{
+
+    .container
+    {
+        padding: 0 3%;
+    }
+
+    .toggle-btn
+    {
+        display: flex;
+    }
+
+    .nav-links
+    {
+        display: none;
+        width: 100%;
+        position: relative;
+    }
+
+    .navbar
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-links ul
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       background-color: white;
+    }
+
+    .nav-links li,a
+    {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-links.active
+    {
+        display: flex;
+    }
+
+    .reciption
+    {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jpg);
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+    color: white;
+    position: relative;
+    }
+
+    .qote
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 97%;
+    }
+
+    .qote h1
+    {
+        border: 3px solid white;
+        padding: 7px;
+        margin: 15px 0;
+        font-size: 30px;
+    }
+
+
+.deal
+{
+    margin: 0;
+    box-shadow: 1px 1px 7px 0px lightgray;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    border-bottom: 4px solid lightseagreen;
+}
+
+.deeals button
+{
+    border:none;
+    padding: 10px;
+    width: 80%;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.people-reading,.all-people
+{
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+}
+
+.people-reading a
+{
+    color: teal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-inf
+{
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    right: 0px;
+}
+
+.img-inf h1::before
+{
+    content: "";
+    position: absolute;
+    background-color: lightseagreen;
+    width: 6px;
+    right: 0;
+    height: 50px;
+    margin-right: 25px;
+}   
+
+.img-inf h1
+{
+    text-align: center;
+    margin: 22px 0 ;
+}
+
+.image
+{
+    width: 100%;
+}
+
+.image img
+{
+    width: 100%;
+    height: 300px;
+    box-shadow: 1px 1px 9px 5px  lightgray;
+}
+
+.img-inf p
+{
+    color: rgb(100, 99, 99);
+    margin-right: 0;
+}
+
+.swiper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    height:350px;
+  }
+
+  .swiper-slide , .swiper-slide-active
+  {
+      width: 230px;
+  }
+
+
+.titlle
+{
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+}
+
+.titlle h1::before {
+    content: "";
+    position: absolute;
+    background-color: lightseagreen;
+    width: 7px;
+    height: 50px;
+    margin-right: -20px;
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 40%;
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+
+.swiper-button-next,.swiper-button-prev
+{
+    background-color: white;
+    padding: 20px;
+    color: black;
+    font-size: 15px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+.swiper-slide span
+{
+    color: rgb(121, 121, 121);
+    margin: 10px 10px;
+}
+
+.hero
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1
+{
+    font-size: 35px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.hero h1::before
+{
+    content: "";
+    width: 5px;
+    height: 60px;
+    background-color: lightseagreen;
+    position: absolute;
+    margin-right: -20px;
+}
+
+.review-box
+{
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
+    position: relative;
+    top: 30px;
+    overflow:hidden;
+}
+
+
+.card
+{
+    height: 300px;
+    padding: 0px 22px;
+    color: #fff;
+    line-height: 26px;
+    font-size: 17px;
+    box-sizing: border-box;
+    color: #777;
+    position: relative;
+}
+
+#slide
+{
+    width: 100%;
+    padding-right: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+    font-size: 17px;
+}
+
+.profile h3,p
+{
+    margin-right: 30px;
+}
+
+.profile span
+{
+    background-color:lightseagreen ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 3px;
+}
+
+.sidebar
+{
+    width: 40px;
+    height: 100%;
+    padding: 15px 0 ;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top ,lightseagreen , rgb(52, 240, 230) );
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar button
+{
+    width: 35px;
+    padding: 0;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    background: white;
+    color: black;
+    border:none;
+    font-size:19px;
+    font-weight: bold;
+}
+
+.itms span
+{
+    color: rgb(68, 68, 68);
+}
+
+.under-links span
+{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tow-sides
+{
+    display: block;  
+}
+
+.sale .side-toggle
+{
+    position: absolute;
+    top: 70px;
+    right: 17px;
+    font-size: 27px;
+}
+
+.right-navs
+{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    display: none;
+    transition: 0.3s;
+}
+
+.right-navs.activate
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.right-navs .search 
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.right-navs .search input
+{
+    border: 1px solid lightgray;
+    padding:10px;
+    text-align: center;
+    width: 100%;
+}
+
+.right-navs .search i
+{
+    color: rgb(119, 119, 119);
+    position: absolute;
+    left: 12px;
+    top: 15px;
+}
+
+.right-navs .navss ul li
+{
+    list-style: none;
+    line-height: 45px;
+    text-align: right;
+    color: rgb(167, 167, 167);
+}
+
+.books-show
+{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.books-show .tabs
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.books-show .tabs li
+{
+    padding:7px;
+    border-right:1px solid white;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 17px;
+}
+
+.books-show .tabs li.active,
+.tabs li:hover
+{
+    background-color: lightseagreen;
+    color: white;
+}
+
+
+.books-show .content .flee
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.books-show .content .flee .taking-single
+{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.books-show .flee .book-infor
+{
+    width: 50%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.books-show .flee .book-infor  span
+{
+    font-size: 17px;
+}
+
+.books-show .flee .book-infor .old
+{
+    text-decoration: line-through;
+    color: crimson;
+    font-size: 17px;
+}
+
+.books-show .flee .book-infor button
+{
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 100%;
+    padding: 7px;
+}
+
+
+.footer
+{
+    background-color: rgb(228, 225, 225);
+    color: black;
+    height: 200px;
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+
+.footer .all-contennts
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.itms span
+{
+    color: rgb(68, 68, 68);
+}
+
+.under-links span
+{
+    padding-right: 3px;
+    font-size: 17px;
+}
+
+.icns i 
+{
+    padding: 0 10px;
+    font-size: 25px;
+    color: rgb(59, 52, 52);
+}
+
+
+}
